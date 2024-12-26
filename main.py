@@ -15,8 +15,8 @@ class Parser:
         self.wait = WebDriverWait(self.driver, 5)
         self.url = 'https://www.avito.ru/moskva_i_mo/kvartiry/sdam/na_dlitelnyy_srok-ASgBAgICAkSSA8gQ8AeQUg?cd=1&f=ASgBAgECAkSSA8gQ8AeQUgFFxpoMFXsiZnJvbSI6MCwidG8iOjMwMDAwfQ&footWalkingMetro=15&i=1&metro=26-29-55-103-119-2142-2143-2151-2208-2209-2210-2211-2219-2220-2221&s=104'
         self.ids = self.Load_Ids()
-        self.bot = telebot.TeleBot('5789852810:AAECNzpqKl7GUXHMP3sifXlcQncelDxYdlg')
-        self.bot.config['api_key'] = '5789852810:AAECNzpqKl7GUXHMP3sifXlcQncelDxYdlg'
+        self.bot = telebot.TeleBot('')
+        self.bot.config['api_key'] = ''
 
     def Get_driver(self):
         options = Options()
